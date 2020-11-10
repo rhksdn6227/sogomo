@@ -1,0 +1,141 @@
+body{
+    font-family: 'Jua', sans-serif;
+}
+#kit_map{
+    position: relative;
+    left: 15%;
+}
+img[usemap]{
+    border: none;
+    max-width: 100%;
+    width: auto;
+}
+#calendar{
+    position: relative;
+    text-align: center;
+    width: 650px;
+    left: 12.5%;  
+    top: -3%;  
+}
+.ccbutton{
+    border: 0;
+    background: #990000ea;
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+}
+#cal_year_month{
+    width: 84px;
+    left: 50%;
+    margin-top: 23px;
+}
+.ccbutton, #cal_year_month{
+    float: left;
+    text-align: center;
+}
+.il{
+    float: left;
+    width: 13.5%;
+    height: 66px;
+    border: 0.5px dashed #990000ea;
+    line-height: 66px;
+
+}
+#a, #b, #c, #d, #e, #f, #g {
+    background: #990000ea;
+    color: #ffffff;
+}
+.thisdal{
+    color: #000000;
+    text-decoration: none;
+    border: 0;
+    background: none;
+}
+.otherdal{
+    color: #c2c2c2;
+    text-decoration: none;
+    border: 0;
+    background: none;
+}
+.nal{
+    width: 66px;
+    height: 66px;
+    font-family: 'Jua', sans-serif;
+    font-size: 17px;
+}
+#record_box{
+    position: fixed;
+    left: 40%;
+    height: 300px;
+    width: 310px;
+    border-radius: 14px;
+    top: 40%;
+    margin-top: -100px;
+    overflow: auto;
+    display: none;
+    background: #EEDDDD;
+    opacity: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#month_day{
+    text-align: center;
+    height: 25px;
+    margin-top: 15px;
+}
+.popupsubmit{
+    position: relative;
+    margin-top: 20px;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    float: left;
+}
+.popupsubmit input{
+    border: 0;
+    background: #990000ea;
+    border-radius: 10px;
+    width: 60%;
+    height: 70%;
+    font-family: 'Jua', sans-serif;
+
+}
+#popupbutton{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.popupbutton{
+    border: 0;
+    background: #990000ea;
+    width: 25px;
+    height: 25px;
+    border-radius: 14px;
+    color: #ffffff;
+    margin: 3%;
+    font-family: 'Jua', sans-serif;
+
+}
+.selected_time{
+    background: #f09c00;
+}
+.recording{
+    width: 25%;
+    margin: 0;
+    float: left;
+    text-align: center;
+}
+.answer{
+    width: 70%;
+    float: left;
+}
+.answer input{
+    font-family: 'Jua', sans-serif;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+}
+.answer ::placeholder{
+    color: #f3dede;
+}
+

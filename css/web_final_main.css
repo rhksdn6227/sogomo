@@ -1,0 +1,105 @@
+
+.container {
+    display : grid;
+    grid-template-rows: 130px 800px;
+    background: #f09c00;
+}
+.page_container{
+    background: #ffffff;
+}
+.menu_container {
+    font-family: 'Jua', sans-serif;
+    display : grid;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    line-height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.menu_container a, input{
+    color:#ffffff;
+    text-decoration: none;
+}
+.menu_container input{
+    border: 0;
+    background: none;
+    font-family: 'Jua', sans-serif;
+    font-size: 30px;
+    
+}
+.로고 {
+    font-size: 70px;
+    grid-column: 1 / span 2;
+}
+.기록일지 {
+    grid-column: 3 / span 3;
+}
+.고양이 {
+    grid-column: 6 / span 3;
+
+}
+.로그 {
+    grid-column: 9 / span 3;
+
+}
+#black{
+    color :#000000fa;
+}
+#log_inout{
+    color :#963c00;
+}
+#so{
+    color :#fffffffa;
+
+    font-family: 'Acme', sans-serif;
+    font-family: 'Sniglet', cursive;
+    font-weight: bold;
+
+}
+#go{
+    color :#000000fa;
+
+    font-family: 'Acme', sans-serif;
+    font-family: 'Sniglet', cursive;
+    font-weight: bold;
+
+}
+#mo{
+    color :#963c00;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Sniglet', cursive;
+    font-weight: bold;
+
+}
+.page_container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(10, 1fr);
+}
+.page1 {
+    padding-top: 50px;
+    grid-column: 1 / span 2;
+    border-right: 3px dashed #b10000;
+}
+.page2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 82%;
+    grid-column: 3 / span 7;
+}
+.main_img {
+    grid-column: 3 / span 6;
+    width : 95%;
+    margin : 2.5%;
+}
+#out_change {
+    font-family: 'Jua', sans-serif;
+    background-color: #f09c00;
+    border: none;
+    font-size: 30px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-appearance: none;
+}

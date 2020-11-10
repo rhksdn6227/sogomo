@@ -1,0 +1,239 @@
+body{
+  text-align:center;
+  background-color: #f7ece6;
+  font-family: 'Jua', sans-serif;
+}
+input{
+  font-family: 'Jua', sans-serif;
+
+}
+.create_cat_label{
+  background-color:#fcd583;
+  display: block;
+  margin: 12px auto;
+  border: 2px solid #fcd683;
+  padding: 10px 10px;
+  width: 400px;
+  border-radius: 24px;
+}
+.create_cat_input{
+  height:18px;
+  width:300px;
+  background-color:#fcd583;
+  text-align: center;
+  padding:5px;
+  border:2px solid #fcd583;
+  border-radius: 5px;
+}
+#create_cat_register_goback, #create_cat_register_submit{
+  margin: 10px auto;
+  font-size:18px;
+  margin:10px;
+  height:35px;
+  width:100px;
+  padding:5px 15px;
+  background:#ccc;
+  border:0 none;
+  cursor:pointer;
+  border-radius: 5px;
+}
+.create_cat_area{
+  margin: 0px auto;
+  border-radius:10px;
+  outline: none;
+  padding: 3px 3px;
+  width: auto;
+}
+input[type=file]{
+  border:2px solid #ccc;
+  font-size:16px;
+  background-color:#ccc;
+  font-family: 'Jua', sans-serif;
+  border-radius:10px;
+  display: block;
+  margin: 10px auto;
+  padding: 14px 10px;
+  width: 400px;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+    border-radius:18px;
+    background-color: #fffbf4;
+    margin: 8% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    height:450px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    overflow: auto; /* Enable scroll if needed */
+  
+  }
+
+    /* The Close Button */
+
+    .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    .cat_picture{
+    width:40%;
+    height:100%;
+    margin:5px;
+    float:left;
+    }
+    .cat_text{
+    color:#000000;
+    background-color:#fcd683;
+    font-size: 12px;
+    border: 0;
+    width:60%;
+    padding: 3px 0px;
+    text-align: center;
+    border: 2px solid #fcd683;
+    outline: none;
+    border-radius: 18px;
+    transition: 0.25px;
+    }
+    #modal_content_img{
+      margin-top:100px;
+    }
+    #addcat{
+    border-radius:18px;
+    font-size:30px;
+    color:#f9f6ef;
+    }
+    .cat_area{
+    background-color:#fcd683;
+    font-size: 12px;
+    border: 0;
+    float:right;
+    width:65%;
+    padding: 3px 0px;
+    text-align: center;
+    border: 2px solid #fcd683;
+    border-radius: 18px;
+    transition: 0.25px;
+    }
+    .cat_text_label{
+    float:left;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 3px 3px;
+    width:30%;
+    text-align: center;
+    border: 2px solid #fcd683;
+    border-radius: 10px;
+    transition: 0.25px;
+    }
+    .cat_info{
+    width:50%;
+    height:100%;
+    margin:5px;
+    float:right;
+    }
+    #modal_nextimg_button{
+      margin-bottom:20px;
+      margin-left:15px;
+      font-size:13px;
+      font-weight:bold;
+      height:40px;
+      width:80px;
+      background:1#122530;
+      border:0 none;
+      cursor:pointer;
+      border-radius: 5px;
+    }
+    #cat_info_button1, #cat_info_button2, #cat_info_button3{
+      margin:10px;
+      font-size:15px;
+      height:15%;
+      width:15%;
+      background:#122530;
+      color:#f9f3ed;
+      border:0 none;
+      cursor:pointer;
+      border-radius: 5px;
+    }
+    .polaroid {
+      display:flex;
+      width:140%;
+      margin:auto;
+      flex-wrap:wrap;
+    }
+    figure{
+      height:25%;
+      width:22%;
+      border:2px solid #f4d192;
+      border-radius: 18px;
+      padding:8px;
+      box-sizing:border-box;
+    }
+    figure img{
+      border:1px solid;
+      border-radius:14px;
+      width:100%;
+      height:140px;
+    }
+    figure figcaption{
+      font-family: 'Jua', sans-serif;
+      font-size: 18px;
+      color: #3f3d3a;
+      text-align:center;
+      padding:8px 4px;
+    }
+    .left {
+  width:20%;
+  float:left;
+  box-sizing:border-box;
+}
+.right {
+  width:80%;
+  float:right;
+  box-sizing:border-box;
+}
+.cal_container {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(7,1fr);
+}
+.cal_head {
+  display: grid;
+}
+.cal_button1{
+  grid-column: 1 / span 1;
+}
+.cal_button2{
+  grid-column: 7 / span1;
+}
+#buttonset{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  float: right;  
+}
+#buttonset input{
+  float: right;
+  width: 25%;
+  height: 30px;
+}
